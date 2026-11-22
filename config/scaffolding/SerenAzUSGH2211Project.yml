@@ -7,6 +7,18 @@ packages:
   gitUrl: https://github.com/ArtiKhareNew
   gitUsername: ArtiKhareNew
   gitBranch: main
+- name: SubstractPublicSvcPackage
+  gitServerName: srcCtrl_shared_AzRepos_Arti
+  gitUrl: https://dev.azure.com/ArtiKhare/SubstractPublicSvcPackage/_git
+  gitUsername: ArtiKhare
+  gitBranch: main
+services:
+- serviceName: project.serenazusgh2211.streaming.connections:EmbeddedMessaging
+  packages:
+  - name: SerenAzUSGH2211Project
+    version: "1.0"
+  - name: SubstractPublicSvcPackage
+    version: "3.0"
 configurationVariables:
   jdbc.SAP TxStore Pool.maxConns: "10"
   jdbcfunc.SAPTxStore.failFastMode: false
