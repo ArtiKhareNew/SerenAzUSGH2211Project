@@ -8,10 +8,16 @@ packages:
   gitUsername: ArtiKhareNew
   gitBranch: main
 - name: SubstractPublicSvcPackage
+  version: "3.0"
   gitServerName: srcCtrl_shared_AzRepos_Arti
   gitUrl: https://dev.azure.com/ArtiKhare/SubstractPublicSvcPackage/_git
   gitUsername: ArtiKhare
   gitBranch: main
+- name: multiplypublicservice
+  gitServerName: srcCtrl_bitbucket_Arti
+  gitUrl: https://bitbucket.org/testartiibm
+  gitUsername: artikhare
+  gitBranch: master
 services:
 - serviceName: project.serenazusgh2211.streaming.connections:EmbeddedMessaging
   packages:
